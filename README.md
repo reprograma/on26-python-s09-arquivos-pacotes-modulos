@@ -7,21 +7,26 @@
 Turma Online 0n26 | Python | Semana 9 | 2023 | Professora Daviny Letícia
 
 # Instruções
+
 Antes de começar, vamos organizar nosso setup.
-* Fork esse repositório 
-* Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
-* Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
-* [Add outras intrucoes caso necessario]
+
+- Fork esse repositório
+- Clone o fork na sua máquina (Para isso basta abrir o seu terminal e digitar `git clone url-do-seu-repositorio-forkado`)
+- Entre na pasta do seu repositório (Para isso basta abrir o seu terminal e digitar `cd nome-do-seu-repositorio-forkado`)
+- [Add outras intrucoes caso necessario]
 
 # Resumo
+
 O que veremos na aula de hoje?
-* [Tema1](#tema1)
-* [Tema2](#tema2)
-* [Tema3](#tema3)
+
+- [Tema1](#tema1)
+- [Tema2](#tema2)
+- [Tema3](#tema3)
 
 Claro, aqui está um texto abrangente sobre manipulação de arquivos em Python que pode ser usado em sala de aula:
 
 ---
+
 # Manipulação de Arquivos em Python
 
 ## Introdução
@@ -117,15 +122,16 @@ with open('dados.json', 'w') as arquivo_json:
     json.dump(dados, arquivo_json)
 ```
 
-
 1. **Abrir um Arquivo:**
    Você pode abrir um arquivo usando a função `open()`. Esta função aceita dois argumentos principais: o nome do arquivo e o modo de abertura (leitura, escrita, etc.). Os modos mais comuns são:
+
    - `'r'`: Modo de leitura (default).
    - `'w'`: Modo de escrita (cria um novo arquivo ou sobrescreve o existente).
    - `'a'`: Modo de anexação (adiciona ao final do arquivo).
    - `'b'`: Modo binário (para arquivos binários, como imagens ou áudio).
-   
+
    Exemplo de abertura de um arquivo para leitura:
+
    ```python
    arquivo = open('exemplo.txt', 'r')
    ```
@@ -134,6 +140,7 @@ with open('dados.json', 'w') as arquivo_json:
    Para ler dados de um arquivo, você pode usar o método `read()` ou métodos de iteração como `readline()` ou `readlines()`.
 
    Exemplo de leitura de todo o conteúdo do arquivo:
+
    ```python
    conteudo = arquivo.read()
    print(conteudo)
@@ -143,6 +150,7 @@ with open('dados.json', 'w') as arquivo_json:
    Para escrever dados em um arquivo, você pode usar o método `write()`.
 
    Exemplo de escrita em um arquivo:
+
    ```python
    arquivo = open('exemplo.txt', 'w')
    arquivo.write('Este é um exemplo de escrita em arquivo.')
@@ -170,6 +178,7 @@ with open('dados.json', 'w') as arquivo_json:
    Para trabalhar com arquivos binários, como imagens ou áudio, você pode usar o modo de abertura `'rb'` para leitura binária ou `'wb'` para escrita binária.
 
    Exemplo de leitura de uma imagem binária:
+
    ```python
    with open('imagem.png', 'rb') as arquivo:
        dados = arquivo.read()
@@ -248,7 +257,6 @@ Lembre-se de que é importante fechar o arquivo após usá-lo, principalmente ao
 
 A manipulação de arquivos em Python é uma habilidade essencial para qualquer programador. Ela permite a criação, leitura e escrita de informações em diversos formatos, tornando possível o armazenamento e processamento de dados de forma eficiente. Com as ferramentas e técnicas apresentadas, você estará preparado para lidar com uma variedade de tarefas envolvendo arquivos em seus projetos de programação.
 
-
 # Pacotes em Python: Organização e Reutilização de Código
 
 ## Introdução
@@ -283,16 +291,19 @@ Neste exemplo, temos um pacote chamado `meu_pacote` que contém dois módulos (`
 Para usar pacotes e módulos em Python, você precisa importá-los em seu código. Existem várias maneiras de fazer isso:
 
 - Importação de um módulo específico de um pacote:
+
   ```python
   from meu_pacote import modulo1
   ```
 
 - Importação de um pacote ou subpacote:
+
   ```python
   import meu_pacote.subpacote
   ```
 
 - Importação com um alias:
+
   ```python
   import meu_pacote.modulo1 as mod1
   ```
@@ -312,25 +323,87 @@ Para usar pacotes e módulos em Python, você precisa importá-los em seu códig
 
 4. **Facilidade de Distribuição**: Pacotes bem organizados podem ser facilmente compartilhados e distribuídos para outros desenvolvedores por meio do sistema PyPI (Python Package Index).
 
+## Exemplo de Pacote
+
+Neste exemplo, criaremos um pacote chamado "matematica" que conterá dois módulos: um para operações de adição e outro para operações de multiplicação.
+
+Primeiro, crie uma estrutura de diretório para o seu pacote:
+
+```
+matematica/
+    __init__.py
+    adicao.py
+    multiplicacao.py
+```
+
+Aqui está o código para cada um dos arquivos:
+
+****init**.py** (vazio, usado para indicar que este diretório é um pacote Python):
+
+```python
+# matematica/__init__.py
+```
+
+**adicao.py** (implementação de operações de adição):
+
+```python
+# matematica/adicao.py
+
+def somar(a, b):
+    return a + b
+```
+
+**multiplicacao.py** (implementação de operações de multiplicação):
+
+```python
+# matematica/multiplicacao.py
+
+def multiplicar(a, b):
+    return a * b
+```
+
+Agora, você pode usar esse pacote em um programa Python:
+
+```python
+# main.py
+
+from matematica import adicao, multiplicacao
+
+# Realiza operações de adição e multiplicação
+resultado_soma = adicao.somar(5, 3)
+resultado_multiplicacao = multiplicacao.multiplicar(4, 6)
+
+# Exibe os resultados
+print(f'Soma: {resultado_soma}')
+print(f'Multiplicação: {resultado_multiplicacao}')
+```
+
+Execute o arquivo `main.py`, e ele importará as funções do pacote "matematica" e realizará operações de adição e multiplicação.
+
+Este é um exemplo simples de como criar e usar um pacote Python. Em projetos mais complexos, você pode adicionar mais módulos e subpacotes para organizar melhor seu código. Pacotes são úteis para dividir seu código em componentes reutilizáveis e facilitar a manutenção e colaboração em projetos maiores.
+
 ## Conclusão
 
 Pacotes são uma parte fundamental do ecossistema Python e desempenham um papel crucial na organização e reutilização de código. Ao aprender a criar, usar e distribuir pacotes, você estará equipado para desenvolver projetos mais escaláveis, modulares e de fácil manutenção em Python. Essa habilidade é especialmente importante para aqueles que desejam colaborar em projetos de código aberto e contribuir para a comunidade de desenvolvedores Python.
-#
-***
-### Exercícios 
-* [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-* [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
 
-### Material da aula 
+#
+
+---
+
+### Exercícios
+
+- [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
+- [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
+
+### Material da aula
 
 ### Links Úteis
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
 
+- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+- [Lorem Ipsum](https://www.lipsum.com/feed/html)
 
 <p align="center">
 Desenvolvido com :purple_heart:  
 </p>
-
