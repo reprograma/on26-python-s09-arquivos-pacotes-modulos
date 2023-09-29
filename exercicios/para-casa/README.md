@@ -12,11 +12,11 @@ Crie um diretório chamado "data_util" no mesmo diretório em que você está tr
 
 Dentro do diretório "data_util", crie os seguintes módulos:
 
-calculo_idade.py: Contém uma função calcular_idade(data_nascimento) que recebe uma data de nascimento como argumento e retorna a idade da pessoa.
+`calculo_idade.py`: Contém uma função calcular_idade(data_nascimento) que recebe uma data de nascimento como argumento e retorna a idade da pessoa.
 
-ano_bissexto.py: Contém uma função eh_ano_bissexto(ano) que verifica se um ano é bissexto e retorna True ou False.
+`ano_bissexto.py`: Contém uma função eh_ano_bissexto(ano) que verifica se um ano é bissexto e retorna True ou False.
 
-formatar_data.py: Contém uma função formatar_data(data) que recebe uma data no formato "dd/mm/aaaa" e a formata como "aaaa-mm-dd".
+`formatar_data.py`: Contém uma função formatar_data(data) que recebe uma data no formato "dd/mm/aaaa" e a formata como "aaaa-mm-dd".
 
 **Parte 2: Uso do Pacote**
 
@@ -24,9 +24,9 @@ Crie um programa principal fora do diretório "data_util" para testar o pacote.
 
 Importe os módulos do pacote "data_util" e use as funções para realizar as seguintes tarefas:
 
-Solicite ao usuário que insira sua data de nascimento no formato "dd/mm/aaaa" e use a função do módulo calculo_idade.py para calcular a idade da pessoa.
+Solicite ao usuário que insira sua data de nascimento no formato "dd/mm/aaaa" e use a função do módulo `calculo_idade.py` para calcular a idade da pessoa.
 
-Verifique se o ano atual é bissexto ou não usando a função do módulo ano_bissexto.py.
+Verifique se o ano atual é bissexto ou não usando a função do módulo `ano_bissexto.py`.
 
 Solicite ao usuário que insira uma data no formato "dd/mm/aaaa" e use a função do módulo formatar_data.py para exibir a data no formato "aaaa-mm-dd".
 
