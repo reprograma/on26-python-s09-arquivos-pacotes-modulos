@@ -19,9 +19,9 @@ Antes de começar, vamos organizar nosso setup.
 
 O que veremos na aula de hoje?
 
-- [Tema1](#tema1)
-- [Tema2](#tema2)
-- [Tema3](#tema3)
+- [Manipulação de Arquivos](#manipulação-de-arquivos-em-python)
+- [Pacote](#pacotes-em-python-organização-e-reutilização-de-código)
+- [Módulo](#módulos-em-python)
 
 Claro, aqui está um texto abrangente sobre manipulação de arquivos em Python que pode ser usado em sala de aula:
 
@@ -473,17 +473,15 @@ Em resumo, os módulos são unidades de código reutilizável em Python e podem 
 
 ### Exercícios
 
-- [Exercicio para sala](https://github.com/mflilian/repo-example/tree/main/exercicios/para-sala)
-- [Exercicio para casa](https://github.com/mflilian/repo-example/tree/main/exercicios/para-casa)
+- [Exercicio para sala](https://github.com/reprograma/on26-python-s09-arquivos-pacotes-modulos/tree/main/exercicios/para-sala)
+- [Exercicio para casa](https://github.com/reprograma/on26-python-s09-arquivos-pacotes-modulos/tree/main/exercicios/para-sala)
 
 ### Material da aula
 
 ### Links Úteis
 
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
-- [Lorem Ipsum](https://www.lipsum.com/feed/html)
+- [Criando um pacote python do zero: dos requisitos ao deploy](https://www.youtube.com/watch?v=R3hCkU4EXgY)
+
 
 <p align="center">
 Desenvolvido com :purple_heart:  
