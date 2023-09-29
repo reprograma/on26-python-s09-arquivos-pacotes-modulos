@@ -428,7 +428,7 @@ Para usar um módulo em um programa Python, você precisa importá-lo. Existem v
 
 ### Criando seus Próprios Módulos
 
-Você também pode criar seus próprios módulos para organizar seu código em arquivos separados. Para criar um módulo, crie um arquivo Python com extensão ".py" e defina funções, variáveis ou classes nele. Você pode então importar esse módulo em outros programas.
+Você também pode criar seus próprios módulos para organizar seu código em arquivos separados. Para criar um módulo, crie um arquivo Python com extensão **".py"** e defina funções, variáveis ou classes nele. Você pode então importar esse módulo em outros programas.
 
 ### Módulos Padrão
 
@@ -456,12 +456,12 @@ Os módulos em Python são uma parte fundamental da linguagem e promovem a organ
 Um módulo é um arquivo Python individual que contém código Python reutilizável.
 Ele pode conter variáveis, funções e classes.
 Os módulos são usados para organizar e reutilizar código em diferentes partes de um programa.
-Para usar um módulo em Python, você o importa em seu código principal usando a declaração import.
+Para usar um módulo em Python, você o importa em seu código principal usando a declaração **import.**
 
 **Pacote:**
 
 Um pacote é uma coleção de módulos organizados em diretórios hierárquicos.
-Um pacote é representado como um diretório contendo um arquivo especial chamado __init__.py (esse arquivo pode estar vazio ou conter código de inicialização).
+Um pacote é representado como um diretório contendo um arquivo especial chamado `__init__.py` (esse arquivo pode estar vazio ou conter código de inicialização).
 Os pacotes ajudam a organizar módulos relacionados em grupos lógicos.
 Eles são usados principalmente para organizar projetos maiores e complexos em uma estrutura modular.
 Para usar um módulo de um pacote em Python, você importa o pacote e, em seguida, o módulo usando a notação de ponto, como import pacote.modulo.
