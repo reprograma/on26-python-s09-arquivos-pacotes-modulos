@@ -451,7 +451,7 @@ raiz_quadrada = math.sqrt(25)
 Os módulos em Python são uma parte fundamental da linguagem e promovem a organização, reutilização de código e legibilidade. Ao entender como usar módulos padrão, criar seus próprios módulos e importar funcionalidades de outros módulos, você terá uma base sólida para criar programas Python mais complexos e eficazes.
 
 
-## Diferença entre modulo e pacote
+## Diferença Entre Módulo e Pacote
 
 **Módulo:**
 
