@@ -20,7 +20,7 @@ Antes de começar, vamos organizar nosso setup.
 O que veremos na aula de hoje?
 
 - [Manipulação de Arquivos](#manipulação-de-arquivos-em-python)
-- [Pacote](#pacotes-em-python-organização-e-reutilização-de-código)
+- [Pacote](#pacotes)
 - [Módulo](#módulos-em-python)
 
 Claro, aqui está um texto abrangente sobre manipulação de arquivos em Python que pode ser usado em sala de aula:
@@ -257,7 +257,7 @@ Lembre-se de que é importante fechar o arquivo após usá-lo, principalmente ao
 
 A manipulação de arquivos em Python é uma habilidade essencial para qualquer programador. Ela permite a criação, leitura e escrita de informações em diversos formatos, tornando possível o armazenamento e processamento de dados de forma eficiente. Com as ferramentas e técnicas apresentadas, você estará preparado para lidar com uma variedade de tarefas envolvendo arquivos em seus projetos de programação.
 
-# Pacotes em Python: Organização e Reutilização de Código
+# Pacotes
 
 ## Introdução
 
