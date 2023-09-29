@@ -6,7 +6,7 @@
 
 Objetivo: Criar um pacote Python chamado "data_util" que contenha módulos para realizar operações relacionadas a datas, como cálculo de idade, verificação de ano bissexto e formatação de datas.
 
-Parte 1: Criação do Pacote e Módulos
+**Parte 1: Criação do Pacote e Módulos**
 
 Crie um diretório chamado "data_util" no mesmo diretório em que você está trabalhando.
 
@@ -18,7 +18,7 @@ ano_bissexto.py: Contém uma função eh_ano_bissexto(ano) que verifica se um an
 
 formatar_data.py: Contém uma função formatar_data(data) que recebe uma data no formato "dd/mm/aaaa" e a formata como "aaaa-mm-dd".
 
-Parte 2: Uso do Pacote
+**Parte 2: Uso do Pacote**
 
 Crie um programa principal fora do diretório "data_util" para testar o pacote.
 
@@ -30,7 +30,9 @@ Verifique se o ano atual é bissexto ou não usando a função do módulo ano_bi
 
 Solicite ao usuário que insira uma data no formato "dd/mm/aaaa" e use a função do módulo formatar_data.py para exibir a data no formato "aaaa-mm-dd".
 
-Dicas:
+
+```
+- Dicas:
 
 Você pode usar a biblioteca datetime para manipular datas em Python.
 
@@ -39,6 +41,8 @@ Certifique-se de organizar seu código de forma que os módulos estejam dentro d
 Teste o seu programa com diferentes datas para garantir que as funções do pacote estejam funcionando corretamente.
 
 Este exercício permitirá às alunas praticar a criação de pacotes em Python e a organização de módulos dentro deles, bem como o uso de funções para realizar tarefas relacionadas a datas.
+```
+
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
