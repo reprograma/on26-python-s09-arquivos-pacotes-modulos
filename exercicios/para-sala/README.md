@@ -74,7 +74,7 @@ Crie um módulo Python chamado "manipulacao_arquivos" que contenha funções par
 
 Esses exercícios ajudarão a praticar a criação de módulos Python e o uso de funções reutilizáveis para realizar tarefas específicas. Você pode personalizar os exercícios de acordo com suas necessidades ou adicionar funcionalidades extras aos módulos para torná-los mais complexos.
 
-
+---
 
 - [ ] Fiz o fork do repositório.
 - [ ] Clonei o fork na minha máquina (`git clone url-do-meu-fork`).
