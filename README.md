@@ -474,7 +474,7 @@ Em resumo, os módulos são unidades de código reutilizável em Python e podem 
 ### Exercícios
 
 - [Exercicio para sala](https://github.com/reprograma/on26-python-s09-arquivos-pacotes-modulos/tree/main/exercicios/para-sala)
-- [Exercicio para casa](https://github.com/reprograma/on26-python-s09-arquivos-pacotes-modulos/tree/main/exercicios/para-sala)
+- [Exercicio para casa](https://github.com/reprograma/on26-python-s09-arquivos-pacotes-modulos/tree/main/exercicios/para-casa)
 
 ### Material da aula
 
