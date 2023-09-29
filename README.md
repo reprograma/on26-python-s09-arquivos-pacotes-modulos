@@ -23,8 +23,6 @@ O que veremos na aula de hoje?
 - [Pacote](#pacotes)
 - [Módulo](#módulos-em-python)
 
-Claro, aqui está um texto abrangente sobre manipulação de arquivos em Python que pode ser usado em sala de aula:
-
 ---
 
 # Manipulação de Arquivos em Python
