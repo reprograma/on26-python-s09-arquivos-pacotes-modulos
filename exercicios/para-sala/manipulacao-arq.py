@@ -31,6 +31,9 @@ with open('pessoas.csv', 'r') as arq:
         print(linha)
 
 '''
+
+
+
 import json
 
 '''
@@ -43,3 +46,5 @@ with open('dados.json', 'w') as arquivo_json:
 with open('dados.json', 'r') as arquivo_json:
     dados = json.load(arquivo_json)
     print(dados)
+
+    
