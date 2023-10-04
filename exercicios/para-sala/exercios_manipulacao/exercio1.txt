@@ -1,0 +1,5 @@
+a conexão do grã canônico e termodinâmica pode ser feita
+através do potencial grã canônico que é a função que descreve 
+o sitema em termos da temperatura, do potencial químico e o
+número de partículas
+    
