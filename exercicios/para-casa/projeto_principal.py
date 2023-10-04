@@ -6,6 +6,6 @@ ano = int(input('Informe o ano que deseja verificar: '))
 print(ano_bissexto.verificar_bi(ano))
 
 data=input("Digite a data de nascimento:")
-print(formatar_data.data_formatar())
+print(formatar_data.formatar(data))
 
 
