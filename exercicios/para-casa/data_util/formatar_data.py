@@ -1,11 +1,12 @@
-from datetime import date
-# Exercício feito em grupo 
+from datetime import datetime
 
-# def formatar_data(data):
-#     # recebe uma data no formato dd/mm/aaaa
-    # formata a data para o formato aaaa-mm-dd
+def formatar_data(data_original):
+    data_formatada = datetime.strptime(data_original, '%d/%m/%Y')
+    return data_formatada.date()
 
-# data_atual = date.today() #como receber uma data informada pelo usuário?
-data_informada = input('Informe a data desejada no formato aaaa/mm/dd: ')
-data_formatada = date.strftime(data_informada, '%d/%m%Y')
+dia = (input('Informe o dia desejado: '))
+mes = (input('Informe o mês desejado: '))
+ano = (input('Informe o ano desejado: '))
+data_original = dia + '/' + mes + '/' + ano
+data_formatada = formatar_data(data_original)
 print(data_formatada)
