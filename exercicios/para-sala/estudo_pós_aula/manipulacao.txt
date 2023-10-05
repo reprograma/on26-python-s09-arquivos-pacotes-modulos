@@ -1,0 +1,36 @@
+Esse arquivo é a explicação da aula 9. 
+
+** MANIPULAÇÃO DE ARQUIVOS EM PYTHON **
+
+A MAP serve para criar, ler, escrever e manipular informações de arquivos como txt, CSV, JSON entre outros
+
+para abrir podemos utilizar o open()
+
+    o nome do arq + o modo de abertura (que pode ser leitura (r), escrita (w), anexação (a)). 
+
+    ex: de leitura
+    with open("doc.txt", "r") as arquivo: 
+        #resto do código da manipulação
+
+usamos o with para assegurar que o arquivo no final irá ser fechado corretamente. 
+
+abrir o arquivo doc_leitura.txt aqui e printar ele 
+            #./ siginifica que ele está na mesma pag     o r é de read(ler)
+with open('./doc_leitura.txt', 'r') as arq: 
+    conteudo = arq.read() #leia o arq 
+    print(f"{conteudo} - Aluna") 
+
+
+ESCRITA: 
+
+Para escrevermos dentro do arquivo, usamos o w ou o a para "anexar" o texto
+
+se utilizarmos o W ele ira substituir tudo que há no arquivo
+se utilizarmos o A ele ira apenas adicionar o novo texto, sem substituir nada. 
+
+Arquivo em CSV: 
+precisamos sempre importar la em cima "import csv"
+
+usado para armazenar dados tabulares(excel, planilhas, banco de dados)
+
+    

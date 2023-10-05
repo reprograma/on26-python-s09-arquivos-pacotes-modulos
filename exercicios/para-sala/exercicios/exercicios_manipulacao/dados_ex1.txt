@@ -1,0 +1,2 @@
+Olá esse arquivo é para o exercício 1 da sala de aula. Tenho que exibir esse texto no meu terminal. feito
+
