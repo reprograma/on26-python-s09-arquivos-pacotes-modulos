@@ -17,6 +17,7 @@
 from data_util import ano_bissexto, calculo_idade, formatar_data
 data_nascimento = input("digite sua data (dd/mm/aaaa) de nascimento:")
 idade = calculo_idade.calcular_idade(data_nascimento)
+print(f"{idade}")
 
 ano_atual = int(input("digite um ano para verificar se  é bissexto: "))
 if ano_bissexto.eh_ano_bissexto(ano_atual):
