@@ -1,0 +1,2 @@
+A soma dos angulos internos de um triangulo  igual a 180 graus;
+A soma dos angulos externos de um poligono qualquer e igual a 360 graus.
