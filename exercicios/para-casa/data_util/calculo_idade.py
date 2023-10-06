@@ -10,3 +10,4 @@ def calcular_idade(data_nascimento):
          (data_nascimento.day, data_nascimento.month))
     return idade
 
+## corrigir strptime __ nao funcionou
