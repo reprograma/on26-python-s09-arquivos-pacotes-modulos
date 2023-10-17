@@ -1,0 +1,5 @@
+from conversao import quilometros_para_milhas
+# from conversao.subpacote import text
+
+def quilometros_para_milhas(quilometros):
+    milhas = quilometros/1.609
