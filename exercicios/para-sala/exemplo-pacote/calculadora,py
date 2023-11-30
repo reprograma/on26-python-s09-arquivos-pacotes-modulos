@@ -1,0 +1,13 @@
+from matematica import soma
+from matematica import subtracao
+from matematica import multiplicacao
+from matematica import divisao
+
+
+a = 10
+b = -5
+
+print(soma.soma(a,b))
+print(subtracao.subtracao(a,b))
+print(multiplicacao.multiplicacao(a,b))
+print(divisao.divisao(a,b))
